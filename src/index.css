@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+font-family: 'Roboto', sans-serif;
+
+@font-face {
+  font-family: StarJedi;
+  src: url('../public/StarJedi.ttf') format('opentype');
+}
+:root {
+
+  background-color: #242424;
+
+}
+
+@layer base {
+  html {
+    font-family: 'Roboto', 'StarJedi', sans-serif;
+  }
+}
