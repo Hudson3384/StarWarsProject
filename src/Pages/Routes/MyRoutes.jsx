@@ -25,8 +25,7 @@ const Routering = () => {
       if( peopleList.length === 0 ) {
         setpeopleList([obj])
       } else {
-        let people = [...peopleList, obj];
-        setpeopleList(people);
+        setpeopleList(peopleList => [...peopleList, obj])
       }
     window.localStorage.setItem(peopleList, JSON.stringify(people));
   };

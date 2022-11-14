@@ -47,7 +47,9 @@ const Register = () => {
             <button
               type='submit'
               className='p-2 mt-4 rounded bg-[#fa8e00] text-[#fff] text-center hover:bg-[#eb8500] focus:bg-[#e46c02]'
-              value='Login'
+              value='Register'
+              placeholder="Register"
+              name="Register"
               onClick={handleSubmit}
             />
           </form>
